@@ -135,6 +135,7 @@ ul li a:hover {
 
 .btns {
     margin-top: 30px;
+    justify-content: start;
 }
 
 .btns button {
@@ -380,7 +381,10 @@ ul li a:hover {
         top: -10%;
         left: 58%;
     }
-
+    
+    .btns {
+        justify-content: center;
+    }
 }
 
 @media  screen and (max-width: 699) {
